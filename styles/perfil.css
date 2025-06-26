@@ -1,0 +1,63 @@
+body {
+    background: #f4ebe2;
+}
+.perfil-flex {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.perfil-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px #0001;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    min-width: 290px;
+    max-width: 350px;
+    width: 100%;
+    border: none;
+}
+.perfil-card h5 {
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+.perfil-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 8vw;
+    color: #32281b;
+}
+.btn-pago {
+    background: #666b65;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 500;
+    border: none;
+    transition: background .2s;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1.2rem;
+}
+.btn-pago:hover {
+    background: #414640;
+}
+.form-switch .form-check-input:checked {
+    background-color: #767c75;
+    border-color: #767c75;
+}
+@media (max-width: 1200px) {
+    .perfil-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    }
+    .perfil-title {
+    margin-left: 0;
+    text-align: center;
+    }
+}

@@ -1,0 +1,19 @@
+.categoria-link.active {
+      font-weight: bold;
+      color: #52705A;
+      border-left: 3px solid #52705A;
+      background: #f7f3ee;
+}
+.categoria-link {
+      cursor: pointer;
+      padding: 5px 10px;
+      display: block;
+      border-radius: 5px;
+      margin-bottom: 2px;
+      color: #5d4633;
+      text-decoration: none;
+      transition: background .15s;
+}
+.categoria-link:hover {
+      background: #e5e1dd;
+}

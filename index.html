@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Esquina</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="bg-esquina">
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light px-3">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.png" alt="Logo La Esquina"> 
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu.html">Menú</a></li>
+        <li class="nav-item"><a class="nav-link" href="nuevo-pedido.html">Nuevo Pedido</a></li>
+        <li class="nav-item"><a class="nav-link" href="estado-pedido.html">Estado de mi Pedido</a></li>
+        <li class="nav-item"><a class="nav-link" href="puntos.html">Puntos</a></li>
+        <li class="nav-item"><a class="nav-link" href="perfil.html">Perfil</a></li>
+        <li class="nav-item"><a class="nav-link" href="ayuda.html">Ayuda</a></li>
+        <li class="nav-item">
+          <a class="nav-link btn-ingresar" href="ingresar.html">Ingresar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-registrate" href="registro.html">Regístrate</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Banner principal como sección -->
+  <section class="banner-principal text-white text-center d-flex align-items-center justify-content-center">
+    <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+    <div class="position-relative text-content">
+      <h1 class="display-4 fw-bold">Pedí tu café por acá y no hagas más filas</h1>
+      <a href="menu.html" class="opacity-70 btn btn-banner">Pedir</a>
+    </div>
+  </section>
+
+  <!-- Sección de Destacados -->
+<section class="container py-3">
+  <h2 class="text-center mb-4">Productos Destacados</h2>
+  <div class="row g-4 text-center">
+    <div class="col-md-4">
+      <img src="img/taza1.png" class="img-fluid rounded" alt="Café Especial">
+      <h5 class="mt-2">Café de Autor</h5>
+      <p class="text-muted">Elaborado con granos seleccionados y tueste artesanal.</p>
+    </div>
+    <div class="col-md-4">
+      <img src="img/cafe_y_medialuna.png" class="img-fluid rounded" alt="Combo del Día">
+      <h5 class="mt-2">Combo del Día</h5>
+      <p class="text-muted">Un café + una medialuna a precio especial.</p>
+    </div>
+    <div class="col-md-4">
+      <img src="img/cafe_frio.png" class="img-fluid rounded" alt="Café Frío">
+      <h5 class="mt-2">Café Frío</h5>
+      <p class="text-muted">Ideal para refrescar tus tardes de verano.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Testimonios -->
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Lo que dicen nuestros clientes</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <blockquote class="blockquote text-center">
+          <p class="mb-3">"Excelente atención y café delicioso. ¡Pido siempre por la app!"</p>
+          <div class="blockquote-footer">Lucía M., clienta frecuente</div>
+        </blockquote>
+        <blockquote class="blockquote text-center mt-4 ">
+          <p class="mb-3">"Nunca más hice fila. Pido desde el bondi y lo retiro listo."</p>
+          <div class="blockquote-footer">Carlos G., usuario de la app</div>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="text-center py-4 footer-esquina">
+    <nav class="footer-nav">
+      <ul class="list-inline mb-1">
+        <li class="list-inline-item"><a href="#">Legales</a></li>
+        <li class="list-inline-item"><a href="#">Nosotros</a></li>
+        <li class="list-inline-item"><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

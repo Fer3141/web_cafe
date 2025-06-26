@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Esquina</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/perfil.css">
+
+</head>
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light px-3" style="background: #f4ebe2;">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo.png" alt="Logo La Esquina">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu.html">Menú</a></li>
+        <li class="nav-item"><a class="nav-link" href="nuevo-pedido.html">Nuevo Pedido</a></li>
+        <li class="nav-item"><a class="nav-link" href="estado-pedido.html">Estado de mi Pedido</a></li>
+        <li class="nav-item"><a class="nav-link" href="puntos.html">Puntos</a></li>
+        <li class="nav-item"><a class="nav-link active" href="perfil.html">Perfil</a></li>
+        <li class="nav-item"><a class="nav-link" href="ayuda.html">Ayuda</a></li>
+        <li class="nav-item">
+          <a class="nav-link btn-ingresar" href="ingresar.html">Ingresar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-registrate" href="registro.html">Regístrate</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Perfil contenido -->
+  <div class="perfil-title">Perfil</div>
+  <section class="container perfil-flex">
+      <!-- Datos personales -->
+      <div class="perfil-card">
+        <h5>Datos Personales</h5>
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Nombre">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Apellido">
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <div>
+            <input type="tel" class="form-control" placeholder="Teléfono">
+          </div>
+        </form>
+      </div>
+      <!-- Métodos de pago -->
+      <div style="display:flex; flex-direction:column; gap:2rem;">
+        <div class="perfil-card">
+          <h5>Métodos de pago</h5>
+          <form class="d-flex align-items-center mb-3 gap-2 flex-wrap">
+            <input type="password" class="form-control" value="1234" style="max-width:120px;">
+            <button class="btn btn-pago" type="button">Añadir tarjeta</button>
+          </form>
+        </div>
+        <!-- Preferencias de notificación -->
+        <div class="perfil-card">
+          <h5>Preferencias de notificación</h5>
+          <div class="form-check form-switch mb-2">
+            <input class="form-check-input" type="checkbox" id="notifEmail" checked>
+            <label class="form-check-label" for="notifEmail">Email</label>
+          </div>
+          <div class="form-check form-switch mb-2">
+            <input class="form-check-input" type="checkbox" id="notifSMS" checked>
+            <label class="form-check-label" for="notifSMS">SMS</label>
+          </div>
+          <div class="form-check form-switch mb-0">
+            <input class="form-check-input" type="checkbox" id="notifPush" checked>
+            <label class="form-check-label" for="notifPush">Notificaciones push</label>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 footer-esquina" style="background: #f4ebe2;">
+    <nav class="footer-nav">
+      <ul class="list-inline mb-1">
+        <li class="list-inline-item"><a href="#">Legales</a></li>
+        <li class="list-inline-item"><a href="#">Nosotros</a></li>
+        <li class="list-inline-item"><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
