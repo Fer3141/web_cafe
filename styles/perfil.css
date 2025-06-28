@@ -50,6 +50,20 @@ body {
     background-color: #767c75;
     border-color: #767c75;
 }
+
+.btn-puntos {
+    background: #666b65;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 500;
+    border: none;
+    transition: background .2s;
+    margin-top: 1rem;
+    padding: 0.5rem 1.2rem;
+}
+.btn-puntos:hover {
+    background: #414640;
+}
 @media (max-width: 1200px) {
     .perfil-flex {
     flex-direction: column;
