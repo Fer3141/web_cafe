@@ -3,6 +3,10 @@
   background-color: #f4ebe2;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Banner */
 .banner-principal {
   background-image: url('../img/cafe.png');
