@@ -55,6 +55,17 @@
   margin-left: 10px;
 }
 
+.carousel .blockquote {
+  padding: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.carousel .blockquote-footer {
+  font-style: italic;
+  color: #6c757d;
+}
+
+
 /* Footer */
 .footer-nav a {
   color: #777;
