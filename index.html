@@ -71,21 +71,49 @@
   </div>
 </section>
 
-<!-- Sección de Testimonios -->
+<!-- Sección de Testimonios con Carrusel -->
+<!-- Sección de Testimonios con Carrusel Automático -->
 <section class="bg-light py-5">
   <div class="container">
     <h2 class="text-center mb-4">Lo que dicen nuestros clientes</h2>
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <blockquote class="blockquote text-center">
-          <p class="mb-3">"Excelente atención y café delicioso. ¡Pido siempre por la app!"</p>
-          <div class="blockquote-footer">Lucía M., clienta frecuente</div>
-        </blockquote>
-        <blockquote class="blockquote text-center mt-4 ">
-          <p class="mb-3">"Nunca más hice fila. Pido desde el bondi y lo retiro listo."</p>
-          <div class="blockquote-footer">Carlos G., usuario de la app</div>
-        </blockquote>
+    <div id="carouselTestimonios" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
+      <div class="carousel-inner text-center">
+
+        <!-- Testimonio 1 -->
+        <div class="carousel-item active">
+          <blockquote class="blockquote">
+            <p class="mb-3">"Excelente atención y café delicioso. ¡Pido siempre por la app!"</p>
+            <footer class="blockquote-footer">Lucía M., clienta frecuente</footer>
+          </blockquote>
+        </div>
+
+        <!-- Testimonio 2 -->
+        <div class="carousel-item">
+          <blockquote class="blockquote">
+            <p class="mb-3">"Nunca más hice fila. Pido desde el bondi y lo retiro listo."</p>
+            <footer class="blockquote-footer">Carlos G., usuario de la app</footer>
+          </blockquote>
+        </div>
+
+        <!-- Testimonio 3 -->
+        <div class="carousel-item">
+          <blockquote class="blockquote">
+            <p class="mb-3">"Me encanta el combo del día. Rápido y riquísimo."</p>
+            <footer class="blockquote-footer">Ana T., clienta habitual</footer>
+          </blockquote>
+        </div>
+
       </div>
+
+      <!-- Controles del carrusel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
     </div>
   </div>
 </section>
